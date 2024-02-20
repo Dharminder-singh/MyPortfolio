@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    min-width: 461px;
+}
+body.navBarActive{
+    overflow: hidden;
+}
+header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter:blur(5px);
+    background: #ffffff1a;
+    z-index: 999;
+}
+.main_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-links a , .mainSocial a{
+    text-decoration: none;
+    color: #222;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    display: block;
+}
+.nav-links a{
+    padding: 10px 15px;
+}
+.mainSocial a{
+    padding: 10px 10px;
+}
+.mainSocial li a svg{
+    display: block;
+}
+.mainSocial li a .mailSvg{
+    fill: none;
+    stroke: #222;
+    stroke-width: 1.7px;
+}
+.mainSocial li a .callSvg{
+    fill: #222;
+
+}
+.mainSocial li a .mailSvg:hover {
+    stroke: #8490ff;
+}
+.mainSocial li a .callSvg:hover{
+    fill: #8490ff;
+} 
+.mercado-match{
+    fill: #222;
+}
+.mercado-match:hover{
+    fill: #8490ff;
+}
+
+.nav-links a:hover{
+    color: #8490ff;
+}
+.mainSocial a:hover{
+    color: #8490ff;
+}
+
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.burger div.line {
+    width: 25px;
+    height: 3px;
+    background: linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    margin: 5px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Diveded{
+    margin: 0 10px;
+}
+
+/*******************Mobile Nav Bar*********************/
+.mobileNav{
+    display: block;
+    position: fixed;
+    top: 85px;
+    left: -50%;
+    height: 100vh;
+    width: 50%;
+    z-index: 999;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter:blur(5px);
+    transition:linear .200s ;
+}
+.mobilenavbar{
+    padding: 10px 10px;
+    height: 100%;
+    background-color: #000000cc;
+}
+.mobileNav ul{
+    list-style: none;
+}
+.mobileNav .mobDivder{
+    width: 50%;
+    display: block;
+    border-bottom: 2px solid gray  ;
+}
+.mobileNav ul.social{
+    display: flex;
+    list-style: none;
+}
+.mobilenavbar .nav-links a , .mobilenavbar .mainSocial a{
+    color: #f9f9ff;
+}
+.mobilenavbar .nav-links a:hover{
+    color: #8490ff;
+}
+.mobilenavbar .mainSocial a:hover{
+    color: #8490ff;
+}
+.mobilenavbar .mainSocial .mercado-match{
+    fill: #fff;
+}
+.mobilenavbar .mainSocial .mercado-match:hover{
+    fill: #8490ff;
+}
+.mobilenavbar .mainSocial li a .mailSvg{
+    fill: none;
+    stroke: #fff;
+    stroke-width: 1.7px;
+}
+.mobilenavbar .mainSocial li a .callSvg{
+    fill: #fff;
+
+}
+.mobilenavbar .mainSocial li a .mailSvg:hover {
+    stroke: #8490ff;
+}
+.mobilenavbar .mainSocial li a .callSvg:hover{
+    fill: #8490ff;
+}
+/****************global Style*********************/
+
+.container{
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.primaryBtn{
+    text-transform: uppercase;
+    line-height: 42px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 500;
+    position: relative;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    position: relative;
+    background: linear-gradient(90deg, #8490ff 0%, #62bdfc 100%);
+}
+.title{
+    margin-bottom: 10px;
+    color: #333;
+    text-transform: uppercase;
+}
+.text{
+    margin-bottom: 20px;
+    color: #333;
+}
+.maintitle{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+/***********homepage style******************/
+
+.hero{
+    background-color: #f9f9ff;
+}
+
+.herobox{
+    width: 100%;
+    display: flex;
+    height: 550px;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 50px;
+    
+}
+.herobox .heroLeft{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.heroLeft .context h1{
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+
+.herobox .heroRight{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-wrap: anywhere;
+}
+.herobox .heroRight .banner{
+    width: 100%;
+}
+.herobox .heroRight .banner .colorBg{
+    width: 400px;
+    height: 480px;
+    background: linear-gradient(90deg, #8490ff 0%, #62bdfc 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.herobox .heroRight .banner .colorBg .mainDotBox{
+    width: 370px;
+    height: 450px;
+    background-color: #f9f9ff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* overflow: hidden; */
+}
+.herobox .heroRight .banner .colorBg .mainDotBox .heroimg{
+    position: absolute;
+    width: 350px;
+    height: 437px;
+
+
+}
+.herobox .heroRight .banner .colorBg .mainDotBox .heroimg img{
+    width: 100%;
+    scale: 1.3;
+    filter: drop-shadow(1px -2px 5px #8490ffe9);
+}
+.dotgif{
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+.dotgif img{
+    width: 100%;
+    scale: 2;
+
+}
+.aboutBox{
+    width: 100%;
+    display: flex;
+    height: 550px;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 50px;
+    
+}
+.aboutBox .aboutLeft {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutBox .aboutRight{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-wrap: anywhere;
+}
+
+
+.servicesbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.servicesbox .content{
+    text-align: center;
+    width: 60%;
+}
+
+.myServices{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    width: 100%;
+}
+.single-services{
+    width: 100%;
+    height: 220px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.single-services .lnr{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.single-services:hover .lnr{
+    color: #8490ff;
+}
+.single-services:hover h3{
+    color: #8490ff;
+}
+
+footer{
+   
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .burger:hover line {
+        opacity: 0.7;
+    }
+    .mobileNav.show{
+        left: 0px;
+    }
+    .herobox{
+        height: auto;
+        flex-direction: column-reverse;
+    }
+    .herobox .heroLeft{
+        width: 90%;
+        margin: auto;
+    }
+    .herobox .heroRight{
+        width: 90%;
+        margin: auto;
+        height: 65vh;
+        overflow: visible;
+    }
+    .aboutBox{
+        height: auto;
+        flex-direction: column;
+    }
+    .aboutBox .aboutLeft{
+        width: 90%;
+        margin: auto;
+    }
+    .aboutBox .aboutRight{
+        width: 90%;
+        margin: auto;
+        height: 570px;
+        overflow: visible;
+    }
+    .myServices{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        width: 100%;
+    }
+    .servicesbox .content {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
