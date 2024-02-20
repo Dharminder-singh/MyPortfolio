@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import mainImg from "../../assets/Images/MainImage.png"
-import Dotgifs from "../../assets/Images/dot.gif"
+import Dotgifs from "../../assets/Images/dot.webm"
 import { useState } from "react";
 const Home = ()=> {
 
@@ -23,7 +23,7 @@ const Home = ()=> {
                             <div className="colorBg">
                                 <div className="mainDotBox">
                                     <div className="dotgif">
-                                        <img src={Dotgifs} alt="" />
+                                    <video src={Dotgifs} type="video/webm" autoPlay loop muted />
                                     </div>
                                     <div className="heroimg">
                                         <img src={mainImg} alt="" srcset="" />

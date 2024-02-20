@@ -271,7 +271,7 @@ nav{
     height: 450px;
     overflow: hidden;
     display: flex;
-    justify-self: center;
+    justify-content: center;
     align-items: center;
 }
 .dotgif img{
@@ -343,7 +343,12 @@ nav{
 }
 
 footer{
-   
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9f9ff;
+    padding: 20px;
 }
 
 @media screen and (max-width: 768px) {
