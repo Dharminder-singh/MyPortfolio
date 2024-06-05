@@ -1,9 +1,10 @@
+import AboutMe from "./About/AboutMe"
 const About = ()=> {
 
     return(
         <>
         
-            <h1>About</h1>
+            <AboutMe />
         
         </>
     )

@@ -279,10 +279,12 @@ nav{
     scale: 2;
 
 }
+.about{
+    padding: 50px 0;
+}
 .aboutBox{
     width: 100%;
     display: flex;
-    height: 550px;
     justify-content: center;
     flex-direction: row;
     margin-top: 50px;
@@ -293,6 +295,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .aboutBox .aboutRight{
@@ -305,6 +308,8 @@ nav{
 
 
 .servicesbox{
+    width: 85%;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -313,6 +318,7 @@ nav{
 .servicesbox .content{
     text-align: center;
     width: 60%;
+    margin-bottom: 30px;
 }
 
 .myServices{
@@ -323,12 +329,17 @@ nav{
 }
 .single-services{
     width: 100%;
-    height: 220px;
+    margin-bottom: 30px;
     text-align: center;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
+}
+.single-services p{
+    font-size: 16px;
+    font-weight: 100;
+    color: #777777;
 }
 
 .single-services .lnr{
@@ -340,6 +351,31 @@ nav{
 }
 .single-services:hover h3{
     color: #8490ff;
+}
+.single-services:hover p{
+    color: #8490ff;
+}
+
+
+.fact-areas{
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    padding: 120px 0;
+}
+.fact-areas .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+ }
+ .fact-areas .row .single-fact {
+    text-align: center;
+    color: #fff;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.single-fact h2 {
+    font-size: 30px;
+    font-weight: 700;
 }
 
 footer{
@@ -404,5 +440,9 @@ footer{
         text-align: center;
         width: 100%;
         margin-bottom: 30px;
+    }
+    .fact-areas .row .single-fact {
+        flex: 0 0 50%;
+        max-width: 50%;
     }
 }

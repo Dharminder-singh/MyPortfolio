@@ -1,6 +1,6 @@
 import Home from './Pages/Home'
 import About from './Pages/About'
-import Projects from './Pages/Projects'
+import Projects from './Pages/Project/Projects'
 import Contact from './Pages/Contact'
 import { Routes , Route, } from 'react-router-dom'
 const Main = ()=> {

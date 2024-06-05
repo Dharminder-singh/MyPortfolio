@@ -24,7 +24,6 @@ const Header = ()=> {
                 if(!menu.current.contains(e.target)){
                     setShow(false)
                     document.body.classList.remove('navBarActive');
-                    console.log('menu')
                 }
             }
             if(closemenu.current.contains(e.target)){
