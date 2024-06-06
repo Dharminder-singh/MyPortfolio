@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import mainImg from "../../../assets/Images/MainImage.png"
 import Dotgifs from "../../../assets/Images/dot.webm"
+import Resume from '../../../assets/Dharminder Singh CV.pdf'
 const Hero = ()=> {
 
     return(
@@ -13,7 +14,8 @@ const Hero = ()=> {
                             <p className="title">This is Me</p>
                             <h1>Dharminder Singh</h1>
                             <p className="text">Welcome to My Front End Developer Portfolio, where creativity meets functionality and every line of code tells a story. With a passion for crafting engaging user experiences and a commitment to cutting-edge technologies, I specialize in bringing ideas to life through beautifully designed and seamlessly interactive websites.</p>
-                            <Link className="primaryBtn">Discover Now</Link>
+                            <Link to="/about" className="primaryBtn">Discover Now</Link>
+                            <a className="primaryBtn resume-btn" href="Resume" download={Resume}>Resume</a>
                         </div>
                     </div>
                     <div className="heroRight">

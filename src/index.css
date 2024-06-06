@@ -184,6 +184,10 @@ nav{
     position: relative;
     background: linear-gradient(90deg, #8490ff 0%, #62bdfc 100%);
 }
+.resume-btn{
+    margin-left: 20px;
+    background: linear-gradient(360deg, #8490ff 0%, #62bdfc 100%);
+}
 .title{
     margin-bottom: 10px;
     color: #333;
