@@ -23,7 +23,7 @@ const Hero = ()=> {
                             <div className="colorBg">
                                 <div className="mainDotBox">
                                     <div className="dotgif">
-                                    <video src={Dotgifs} type="video/webm" autoPlay loop muted />
+                                    <video src={Dotgifs} type="video/webm" autoPlay="autoplay" playsinline loop muted />
                                     </div>
                                     <div className="heroimg">
                                         <img src={mainImg} alt="" srcset="" />
