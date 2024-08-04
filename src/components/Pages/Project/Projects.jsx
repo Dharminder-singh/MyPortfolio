@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom"
-import WeatherGif from "../../../assets/Images/WeatherApp.gif"
-import VedioEditor from "../../../assets/Images/VedioEditor.gif"
-import music from "../../../assets/Images/music.gif"
-import SlideSignup from "../../../assets/Images/SlideSignup.gif"
+import Weatherwebm from "../../../assets/Images/WeatherApp.webm"
+import VedioEditor from "../../../assets/Images/VedioEditor.webm"
+import music from "../../../assets/Images/music.webm"
+import SlideSignup from "../../../assets/Images/SlideSignup.webm"
 const Projects = ()=> {
 
     return(
@@ -16,25 +16,25 @@ const Projects = ()=> {
                     <div className="project">
                         <div className="single-project">
                             <a href="https://dharminderweatherapp.netlify.app/" target="_blank">
-                                <img src={WeatherGif} alt="" srcset="" />
+                            <video src={Weatherwebm} type="video/webm" autoPlay loop muted />
                                 <h3>Weather App</h3>
                             </a>
                         </div>
                         <div className="single-project">
                             <a href="https://dharminder-video-editor.netlify.app/" target="_blank">
-                                <img src={VedioEditor} alt="" srcset="" />
+                            <video src={VedioEditor} type="video/webm" autoPlay loop muted />
                                 <h3>Video Editor UI</h3>
                             </a>
                         </div>
                         <div className="single-project">
                             <a href="https://slidesignup.netlify.app/" target="_blank">
-                                <img src={SlideSignup} alt="" srcset="" />  
+                            <video src={SlideSignup} type="video/webm" autoPlay loop muted />  
                                 <h3>Slide Signup</h3>
                             </a>
                         </div>
                         <div className="single-project">
                             <a href="https://myharmonium.netlify.app/" target="_blank">
-                                <img src={music} alt="" srcset="" />  
+                            <video src={music} type="video/webm" autoPlay loop muted /> 
                                 <h3>Harmonium</h3>
                             </a>
                         </div>

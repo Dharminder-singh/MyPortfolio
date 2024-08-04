@@ -402,7 +402,7 @@ nav{
     text-decoration: none;
     color: #222;
 }
-.single-project img{
+.single-project img , .single-project video{
     width: 90%;
     border-radius: 15px;
 }
