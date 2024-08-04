@@ -16,25 +16,25 @@ const Projects = ()=> {
                     <div className="project">
                         <div className="single-project">
                             <a href="https://dharminderweatherapp.netlify.app/" target="_blank">
-                            <video src={Weatherwebm} type="video/webm" autoPlay loop muted />
+                            <video src={Weatherwebm} type="video/webm" autoPlay="autoplay" loop muted />
                                 <h3>Weather App</h3>
                             </a>
                         </div>
                         <div className="single-project">
                             <a href="https://dharminder-video-editor.netlify.app/" target="_blank">
-                            <video src={VedioEditor} type="video/webm" autoPlay loop muted />
+                            <video src={VedioEditor} type="video/webm" autoPlay="autoplay" loop muted />
                                 <h3>Video Editor UI</h3>
                             </a>
                         </div>
                         <div className="single-project">
                             <a href="https://slidesignup.netlify.app/" target="_blank">
-                            <video src={SlideSignup} type="video/webm" autoPlay loop muted />  
+                            <video src={SlideSignup} type="video/webm" autoPlay="autoplay" loop muted />  
                                 <h3>Slide Signup</h3>
                             </a>
                         </div>
                         <div className="single-project">
                             <a href="https://myharmonium.netlify.app/" target="_blank">
-                            <video src={music} type="video/webm" autoPlay loop muted /> 
+                            <video src={music} type="video/webm" autoPlay="autoplay" loop muted /> 
                                 <h3>Harmonium</h3>
                             </a>
                         </div>
