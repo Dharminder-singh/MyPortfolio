@@ -5,7 +5,7 @@ const Services = ()=> {
         <section className="services">
             <div className="container">
                 <div className="servicesbox">
-                    <div className="content">
+                    <div className="HeadingContent">
                         <h2 className="maintitle">My Offered Services</h2>
                         <p className="text">At about this time of year, some months after New Year’s resolutions have been made and kept, or made and neglected.</p>
                     </div>
